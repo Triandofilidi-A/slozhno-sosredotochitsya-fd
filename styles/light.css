@@ -2,7 +2,11 @@
   Специально для светлой темы при наличии класса.
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
+  
 */
+.decoration__rec {
+  display: none;
+}
 
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
@@ -10,5 +14,15 @@
     чем стили в медиазапросе предпочтений пользователя
   */
    --page-bg-image: url(.."images/cover-image-light.png");
-   --main-bg-color: #FFC2E6;
+   --main-bg-color: #FFF1F7;
+   --header-title-color: #FFC2E6;
+   --footer-title-color: #FFC2E6;
+   --header-text-color:  #353430;
+   --main-text-color: #353430;
+   --title-decor: #353430;
+   --primary-color: #353430;
+   --accent-color: #FF8DCB;
+   --menu-button-hover-color: #32312D66;
+
+
 }
