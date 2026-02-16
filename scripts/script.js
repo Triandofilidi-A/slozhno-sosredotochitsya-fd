@@ -49,4 +49,6 @@ function setActiveButton(buttonsArray, theme) {
     autoButton.classList.add('header__theme-menu-button_active');
     autoButton.setAttribute('disabled', true);
   }
+ 
 }
+
