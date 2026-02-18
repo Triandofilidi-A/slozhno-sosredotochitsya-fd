@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: var(--main-bg-color);
-  background-color: #000028;
   display: grid;
   gap: var(--page-gap);
 }
@@ -29,7 +28,7 @@ header {
   inline-size: 52px;
   block-size: 26px;
   color: var(--primary-color);
-  font-family: var(--font-family, "sans-serif");
+  font-family: var(--font-family, "monospace");
   text-transform: uppercase;
   font-size: 18px;
   line-height: 139%;
@@ -79,7 +78,7 @@ header {
   background-color: transparent;
   color: var(--primary-color);
   font-size: 18px;
-  font-family: var(--font-family, "sans-serif");
+  font-family: var(--font-family, "monospace");
   align-self: center;
   justify-self: end;
   text-align: center;
@@ -118,7 +117,7 @@ header {
 }
 
 .header__title {
-  font-family: var(--font-family, "sans-serif");
+  font-family: var(--font-family, "monospace");
   font-size: var(--header-title-size);
   font-weight: 700;
   line-height: 83%;
@@ -128,19 +127,17 @@ header {
 }
 
 .header__discription {
-  font-family: var(--font-family, "sans-serif");
+  font-family: var(--font-family, "monospace");
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
   color: var(--header-text-color);
   background-color: var(--accent-color);
-  min-width: 355px;
-  min-height: 117px;
 }
 
 .content-section__title {
   color: var(--title-section-color);
-  font-family: var(--font-family, "sans-serif");
+  font-family: var(--font-family, "monospace");
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -149,7 +146,7 @@ header {
 .title-decor {
   color: var(--title-decor);
   background-color: var(--accent-color);
-  font-family: var(--font-family, "sans-serif");
+  font-family: var(--font-family, "monospace");
   font-weight: 700;
   line-height: 130%;
   font-size: var(--main-title-size);
@@ -166,7 +163,7 @@ header {
 }
 
 .text-block__content {
-  font-family: var(--font-family, "sans-serif");
+  font-family: var(--font-family, "monospace");
   font-weight: 400;
   font-size: var(--main-text-size);
   line-height: 130%;
@@ -180,7 +177,6 @@ header {
 }
 
 .link:hover {
-  text-decoration: underline;
   border-bottom: 1px solid currentColor;
 }
 
@@ -218,7 +214,7 @@ header {
 }
 
 .images-block__title {
-  font-family: var(--font-family, "sans-serif");
+  font-family: var(--font-family, "monospace");
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -282,6 +278,7 @@ header {
 
   .header__discription {
     max-width: 364px;
+    margin-right: 10px;
     grid-row: 3;
     justify-self: end;
   }
@@ -356,7 +353,6 @@ header {
 
   .header__discription {
     max-width: 491px;
-    min-height: 71px;
     line-height: 23.4px;
     margin-right: 10px;
     margin-bottom: 7px;
